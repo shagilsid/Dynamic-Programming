@@ -16,5 +16,10 @@ In how many ways can you travel to the goal on a grid with dimensions m*n?
 #Complexity
 Number of levels: `n+m` as either m decrease or n decrease at each level
 - Without DP: 
-  - T.C.: `O(2^n+m)`
+  - T.C.: `O(2^(n+m))`
   - S.C.: `O(n+m)`
+
+- With DP:
+  - Number of possible combinations having dimension m and n = `m*n`
+  - T.C:`O(m*n)`
+  - S.C.:`O(m+n)`
