@@ -55,7 +55,7 @@ public class BestSum {
                     bestAnswer=answer;
                 }
             }else{
-                memo.put(remainder,null);
+                memo.put(targetSum,null);
             }
         }
         memo.put(targetSum,bestAnswer==null?null:new ArrayList<>(bestAnswer));

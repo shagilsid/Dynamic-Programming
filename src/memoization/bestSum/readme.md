@@ -16,3 +16,5 @@ Branching factor=`n` where n is the number of options a number can take.
 - With DP:
     - T.C: `O(m*n)`
     - S.C.: `O(m*m)`The extra *m is due to the space taken by an list of elements into memo object
+
+** extra copying of array is not included into T.C.
