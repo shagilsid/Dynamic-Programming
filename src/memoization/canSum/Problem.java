@@ -33,7 +33,7 @@ public class Problem {
         if(target<0)
             return false;
         for (int i = 0; i < numbers.length; i++) {
-            boolean returnValue=canSum(target-numbers[i],numbers);
+            boolean returnValue=canSumDP(target-numbers[i],numbers,memo);
             if (returnValue) {
                 memo.put(target,true);
                 return true;

@@ -13,5 +13,5 @@ Branching factor=`n` where n is the number of options a number can take.
   - Here number of branches a node can have = number of elements in array.
   - S.C.: `O(m)`
 - With DP
-  - T.C. `O(n*m)`: A target number can be operated using all numbers present in an array. Only 1 time this operation is required for particular target sum.
+  - T.C. `O(m*n)`: A target number can be operated using all numbers present in an array. Only 1 time this operation is required for particular target sum.
   - S.C: `O(m)`
